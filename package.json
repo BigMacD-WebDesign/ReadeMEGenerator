@@ -1,0 +1,27 @@
+{
+  "name": "reademegenerator",
+  "version": "1.0.0",
+  "description": "Read Me Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BigMacD-WebDesign/ReadeMEGenerator.git"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "Scott MacDonald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BigMacD-WebDesign/ReadeMEGenerator/issues"
+  },
+  "homepage": "https://github.com/BigMacD-WebDesign/ReadeMEGenerator#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.1.0"
+  }
+}
