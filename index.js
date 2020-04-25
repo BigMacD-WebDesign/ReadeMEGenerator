@@ -55,20 +55,24 @@ inquirer.prompt([
     console.log(axiosResponse.data);
     var readMeString = `
 # About The Author
+# Name: ${axiosResponse.data.name}
 ## Username, ${axiosResponse.data.login}
 ### Email: ${axiosResponse.data.email}
 ### Location: ${axiosResponse.data.location}
-# Name: ${axiosResponse.data.name}
+
 First Header | Second HEader
 -------------|---------------
+Project      | ${userInput.Project}
+Project URL  | https://github.com/${userInput.github}/${userInput.Project}
 Installation | ${userInput.Installation}
 License      | ${userInput.License}
 Test         | ${userInput.Test}
 
 
+![GitHub Logo](${axiosResponse.data.avatar_url})
+Format: ![Alt Text](${axiosResponse.data.avatar_url})
 
-
-
+[![GitHub license](https://img.shields.io/badge/license-${userInput.License}-blue.svg)](https://github.com/${userInput.github}/${userInput.Project})
 ![GitHub license] (https://img.shields.io/badge/license-${userInput.License}-blue.svg)
 
     `
