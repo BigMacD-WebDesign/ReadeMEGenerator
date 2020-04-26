@@ -69,11 +69,11 @@ License      | ${userInput.License}
 Test         | ${userInput.Test}
 
 
+
 ![GitHub Logo](${axiosResponse.data.avatar_url})
-Format: ![Alt Text](${axiosResponse.data.avatar_url})
 
 [![GitHub license](https://img.shields.io/badge/license-${userInput.License}-blue.svg)](https://github.com/${userInput.github}/${userInput.Project})
-![GitHub license] (https://img.shields.io/badge/license-${userInput.License}-blue.svg)
+
 
     `
     console.log(readMeString)
