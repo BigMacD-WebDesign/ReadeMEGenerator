@@ -56,7 +56,7 @@ inquirer.prompt([
     var readMeString = `
 # About The Author
 # Name: ${axiosResponse.data.name}
-## Username, ${axiosResponse.data.login}
+## Username: ${axiosResponse.data.login}
 ### Email: ${axiosResponse.data.email}
 ### Location: ${axiosResponse.data.location}
 
@@ -73,7 +73,6 @@ Test         | ${userInput.Test}
 ![GitHub Logo](${axiosResponse.data.avatar_url})
 
 [![GitHub license](https://img.shields.io/badge/license-${userInput.License}-blue.svg)](https://github.com/${userInput.github}/${userInput.Project})
-
 
     `
     console.log(readMeString)
