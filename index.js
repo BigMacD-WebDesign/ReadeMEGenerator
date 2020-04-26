@@ -60,7 +60,7 @@ inquirer.prompt([
 ### Email: ${axiosResponse.data.email}
 ### Location: ${axiosResponse.data.location}
 
-First Header | Second HEader
+First Header | Second Header
 -------------|---------------
 Project      | ${userInput.Project}
 Project URL  | https://github.com/${userInput.github}/${userInput.Project}
