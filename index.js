@@ -30,7 +30,7 @@ inquirer.prompt([
         type: "input"
     },
     {
-        name: "Terms",
+        name: "Usage",
         message: "What is your usage?",
         type: "input"
     },

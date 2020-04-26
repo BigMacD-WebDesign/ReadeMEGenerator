@@ -11,7 +11,7 @@ Project      | readmegenerator
 Project URL  | https://github.com/BigMacD-WebDesign/readmegenerator
 Installation | npm install
 License      | ISC
-Test         | manual
+Test         | Manual
 
 
 
