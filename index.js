@@ -57,7 +57,6 @@ inquirer.prompt([
 # About The Author
 # Name: ${axiosResponse.data.name}
 ## Username: ${axiosResponse.data.login}
-### Email: ${axiosResponse.data.email}
 ### Location: ${axiosResponse.data.location}
 
 First Header | Second Header
@@ -67,7 +66,6 @@ Project URL  | https://github.com/${userInput.github}/${userInput.Project}
 Installation | ${userInput.Installation}
 License      | ${userInput.License}
 Test         | ${userInput.Test}
-
 
 
 ![GitHub Logo](${axiosResponse.data.avatar_url})
