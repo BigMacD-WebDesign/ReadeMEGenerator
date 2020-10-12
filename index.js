@@ -63,6 +63,7 @@ First Header | Second Header
 -------------|---------------
 Project      | ${userInput.Project}
 Project URL  | https://github.com/${userInput.github}/${userInput.Project}
+Description  | ${userInput.Description}
 Installation | ${userInput.Installation}
 License      | ${userInput.License}
 Test         | ${userInput.Test}
